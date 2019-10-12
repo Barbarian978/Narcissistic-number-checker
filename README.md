@@ -1,1 +1,1 @@
-# Narcissistic-number-checker
+# Narcissistic-number-checker (Python)
