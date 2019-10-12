@@ -1,3 +1,5 @@
+# First ever program wrote publicly #
+
 N = str(input("Enter a positive number : "))            # the number starts with 'string' type for next step
 num_digits = len(str(N))                                # 'len()' for counting the number of string type number
 n = int(N)                                              # also create a 'integer' type (n) of the string type (N)
