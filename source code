@@ -1,12 +1,12 @@
-N = str(input("Enter a positive number : "))  
-num_digits = len(str(N))
-n = int(N)
-digits = [int(x) for x in str(N)]
-
-summ = 0
-for i in digits:
-        summ += i ** num_digits
-if summ == n:
-        print(n,"is a Narcissistic number.")
-else:
-        print(n,"is not a Narcissistic number.")
+N = str(input("Enter a positive number : "))            # the number starts with 'string' type for next step
+num_digits = len(str(N))                                # 'len()' for counting the number of string type number
+n = int(N)                                              # also create a 'integer' type (n) of the string type (N)
+digits = [int(x) for x in str(N)]                       # seperate every elements in the string list
+                                                        #
+summ = 0                                                # small loop for summing the element power number of digits
+for i in digits:                                        #
+        summ += i ** num_digits                         #
+if summ == n:                                           # this should be easy to understand
+        print(n,"is a Narcissistic number.")            # just simply check the summation with the original number n (or N)
+else:                                                   #
+        print(n,"is not a Narcissistic number.")        #
