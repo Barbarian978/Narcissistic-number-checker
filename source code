@@ -1,0 +1,12 @@
+N = str(input("Enter a positive number : "))  
+num_digits = len(str(N))
+n = int(N)
+digits = [int(x) for x in str(N)]
+
+summ = 0
+for i in digits:
+        summ += i ** num_digits
+if summ == n:
+        print(n,"is a Narcissistic number.")
+else:
+        print(n,"is not a Narcissistic number.")
